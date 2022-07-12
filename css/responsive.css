@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1024px){
+    .button-mobile{
+        top:62%;
+    }
+}
+@media only screen and (max-width: 768px){
+	.carousel-caption{
+		width: 90%;
+	}
+	.carousel-caption h3 {
+        line-height: initial;
+        font-size: 30px;
+    }
+    .navbar{
+    	background: linear-gradient(90deg, rgb(36, 51, 255) 0%, rgb(0, 255, 240) 100%);
+        z-index: 9999999;
+    }
+
+
+    /*last css design*/
+    .button-mobile.animated.slideInUp {
+        width: 63%;
+    }
+    .button-mobile {
+        top: 58%;
+    }    
+    /*last css design end*/
+}
+@media only screen and (min-width: 640px) and (max-width: 767px){
+    .button-mobile{
+        top: 74% ;
+    }
+    .section-heading {
+        margin-bottom: 0;
+    }   
+    .section-heading h3 {
+        color: #00aecb;
+        font-size: 20px;
+    }
+    .explore-more-btn{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 640px){
+    .button-mobile{
+        top: 64% ;
+    }
+    .section-heading {
+        margin-bottom: 0;
+    }   
+    .section-heading h3 {
+        color: #00aecb;
+        font-size: 20px;
+    }
+    .explore-more-btn{
+        margin-top: 0;
+    }
+    .left-features .feature-content{
+        float: right;
+        width: 80%;
+        text-align: left;
+    }
+    .feature-video .feature-content {
+        padding-right: 30px;
+        width: 80%;
+        float: right;
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 520px){
+	.mobile-display{
+		display: block !important;
+		width: 50%;
+        margin: auto;
+	}
+	 .single-feature{
+		display: block;
+	}
+	 .feature-icon {
+        margin-right: 20px;
+        transition: all 0.3s ease-in;
+        display: table-cell;
+    }
+     .feature-content {
+        padding-right: 0;
+        display: table-cell;
+        vertical-align: middle;
+        padding-right: 20px;
+        margin-bottom: 60px;
+    }
+    .single-feature{
+	    display: block !important;
+	    margin-bottom: 40px;
+    }
+    .right-feature .feature-icon{
+    	padding-right: 20px;
+    }
+    .feature-video .single-feature{
+    	border-bottom: 2px solid rgba(99, 99, 99, 0.3);
+        float: left;
+        border-right: 0;
+    }
+    .button-mobile.animated.slideInUp {
+        width: 53%;
+    }
+    .de-hide{
+    display: block;
+}
+.mo-hide{
+    display: none !important;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .button-mobile{
+        top: 72% ;
+    }
+}
