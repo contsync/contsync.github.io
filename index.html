@@ -552,6 +552,21 @@ camera*! The person scanning doesn't need to have ContSync.</p>
 
     </div><!--end main content inner-->
 </div>
+<div id="archive-modal" class="modal fade" role="dialog" style="z-index: 1000000; margin-top: 15%;">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="text-align: center; color: red;">Notice</h4>
+      </div>
+      <div class="modal-body" style="text-align: center; color: black;">
+        <p>This website is for record purposes only. The app is no longer available</p>
+      </div>
+    </div>
+
+  </div>
+</div>
 <!--end main container -->
 
 <!--=========== all js file link ==============-->
@@ -867,7 +882,11 @@ camera*! The person scanning doesn't need to have ContSync.</p>
 
 </script>
 
-
+<script type="text/javascript">
+    $(window).on('load', function() {
+        $('#archive-modal').modal('show');
+    });
+</script>
 </body>
 </html>
 
